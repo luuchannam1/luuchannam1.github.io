@@ -1,0 +1,227 @@
+body{
+    background-color: black;
+
+}
+.bo {}
+.bo .menu{
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    display:flex;
+}
+.bo .menu img{
+    width:140px;
+    height: 100px;
+    margin-left:27px;
+
+}
+.bo .menu ul{
+    margin-left:470px;
+    margin-top:35px;
+    cursor: pointer;
+    list-style-type: none;
+
+}
+.bo .menu ul li{
+    display: inline;
+    margin-right:29px;
+}
+.bo .menu ul li:hover{
+    color:orange;
+}
+.bo .menu button{
+    width:156px;
+    height: 53px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    border:1px solid black;
+    font-weight: 700;
+    margin-top:20px;
+}
+.bo .menu button:hover{
+    color:orange;
+}
+.bo .noi-dung{
+    display: flex;
+}
+.bo .noi-dung .trai{
+    margin-top:170px;
+    
+}
+.bo .noi-dung .trai img{}
+.bo .noi-dung .trai button{
+    margin-left:29px;
+    width:148px;
+    text-transform: uppercase;
+    height: 47px;
+    border:1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:20px;
+    color:black;
+    font-size: 13px;
+    background-color: white;
+}
+.bo .noi-dung .trai button:hover{
+    color: orange;
+}
+.bo .noi-dung .phai{
+    width:700px;
+    height: 530px;
+    margin-top:70px;
+    margin-left: 90px;
+}
+.bo .noi-dung .phai img{
+    width:100%;
+    height:100%;
+
+}
+.bo .noi-dung .phai img:hover{
+    margin-top:-20px;
+}
+
+.demo-collection{
+    
+}
+.demo-collection h1{
+    color: #dc7822;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top:200px;
+}
+.demo-collection .muoi-anh{
+    display:flex;
+    justify-content: space-between;
+    width:1100px;
+    height:1200px;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top:60px;
+}
+.demo-collection .muoi-anh img{
+    width:340px;
+    height:200px;
+}
+.demo-collection .muoi-anh h3{
+    width: 300px;
+    text-align: center;
+    color: white;
+    margin-top:20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.demo-collection .muoi-anh .anh10 {
+    margin-left:380px;
+}
+.demo-collection .muoi-anh p{
+    width:300px;
+    text-align: center;
+    color:white;
+    margin-top:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.anh1,.anh2,.anh3,.anh4,.anh5,.anh6,.anh7,.anh8,.anh9,.anh10{
+    position: relative;
+}
+.anh1-1 .preview{
+    opacity: 0;
+    left:35%;
+    top:25%;
+    border:1px solid black;
+    position: absolute;
+    font-size: 14px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.anh1-1:hover .preview{
+    opacity: 1;
+}
+.anh1-1:hover img{
+    opacity: 0.4;
+}
+.cuoi {
+    display:flex;
+    flex-wrap:wrap;
+    width: 1070px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    height: 2212px;
+    margin-top: 300px;
+    margin-left: 100px;
+    justify-content: space-between;
+    color: white;
+}
+.cuoi .con{
+    width: 220px;
+    height: 316px;
+    
+}
+.cuoi .con img{
+    width: 26px;
+    height: 28px;
+}
+.cuoi .con h5{
+    width:100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.cuoi .con p{
+    font-size: 14px;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.den{
+    background-color: rgba(51, 51, 51, 0.24);
+    width: 1132px;
+    height: 363px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.den h5{
+    color: #dc7822;
+    text-align: center;
+    padding-top: 60px;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+.den h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+
+}
+.den p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.39);
+}
+.den button{
+    margin-left: 460px;
+    margin-top: 60px;
+    border:1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:38px;
+    padding-right:38px;
+    background-color: white;
+    font-weight: 600;
+
+}
+.den button:hover{
+    color: #dc7822;
+}
